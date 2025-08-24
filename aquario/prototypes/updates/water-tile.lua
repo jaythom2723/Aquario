@@ -1,0 +1,6 @@
+data.raw.tile["water"].fluid = "aquario-sea-water"
+data.raw.tile["deepwater"].fluid = "aquario-sea-water"
+data.raw.tile["water-green"].fluid = "aquario-sea-water"
+data.raw.tile["deepwater-green"].fluid = "aquario-sea-water"
+data.raw.tile["water-shallow"].fluid = "aquario-sea-water"
+data.raw.tile["water-mud"].fluid = "aquario-sea-water"
