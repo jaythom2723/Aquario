@@ -7,10 +7,12 @@ script.on_init(function()
     storage.starting_items = aquario.populate_starting_items(prototypes.item)
 
     if remote.interfaces["freeplay"] then
+        -- disable the initial ship wrecks that spawn on a normal new game
         if remote.interfaces.freeplay.set_disable_crashsite then
             remote.call("freeplay", "set_disable_crashsite", true)
         end
 
+        -- I honestly don't remember what this does...
         local created_items = remote.call("freeplay", "get_created_items")
         created_items["iron-plate"] = nil
         created_items["burner-mining-drill"] = nil
@@ -34,6 +36,7 @@ end)
 
 -- landfill gen
 script.on_event(defines.events.on_chunk_generated, function(event)
+    -- find out which tiles to replace with landfill (should only be 1)
     local tiles = event.surface.find_tiles_filtered {
         area = event.area,
         collision_mask = "water_tile",

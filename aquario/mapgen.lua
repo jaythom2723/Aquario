@@ -1,3 +1,4 @@
+-- math is scary, i don't remember what this does
 data:extend {
   {
     type = "noise-expression",
@@ -7,6 +8,7 @@ data:extend {
   }
 }
 
+-- setup a new map preset that has everything set to 0
 data.raw["map-gen-presets"].default["aquario"] = {
   order = "j",
   basic_settings = {

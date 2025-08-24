@@ -10,18 +10,18 @@ Just me, for now!
 - [Rify/Kyber](https://github.com/jaythom2723)
 
 # Useful Links
-- []()
-- []()
-- []()
-- []()
+- [IDEAS.md](https://github.com/jaythom2723/Aquario/blob/main/IDEAS.md)
+- [CHANGELOGS.md](https://github.com/jaythom2723/Aquario/blob/main/CHANGELOGS.md)
+- [TODO.md](https://github.com/jaythom2723/Aquario/blob/main/TODO.md)
+- [Brainstorming](https://docs.google.com/spreadsheets/d/1ZkqEqgm3ItNDvxcVqbjngmfc1gUmM0XwPo3I8ARKp_k/edit?usp=sharing)
 
 ## Ideas
-The [ideas]() file, will go over things that are actively being designed as well as provide a bit more context than this [spreadsheet]().
+The [ideas](https://github.com/jaythom2723/Aquario/blob/main/IDEAS.md) file, will go over things that are actively being designed as well as provide a bit more context than this [spreadsheet](https://docs.google.com/spreadsheets/d/1ZkqEqgm3ItNDvxcVqbjngmfc1gUmM0XwPo3I8ARKp_k/edit?usp=sharing).
 
 ## Changelogs
-Changelogs can be found within the global [changelogs.md](https://github.com/jaythom2723/aquario/tree/main/root/CHANGELOGS.md) file
+Changelogs can be found within the global [changelogs.md](https://github.com/jaythom2723/Aquario/blob/main/CHANGELOGS.md) file
 
 ## To-Do
-A global [todo list]() is where any and all features that are *planned* to be implemented will go. As opposed to working with a Trello, this file will keep track of what's in progress, what needs testing, and what is completed.
+A global [todo list](https://github.com/jaythom2723/Aquario/blob/main/TODO.md) is where any and all features that are *planned* to be implemented will go. As opposed to working with a Trello, this file will keep track of what's in progress, what needs testing, and what is completed.
 
 ## README
