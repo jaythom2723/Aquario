@@ -13,6 +13,7 @@ require("prototypes.data.item.entity.evaporator")
 require("prototypes.data.item.entity.mixing-drum")
 require("prototypes.data.item.entity.soil-gatherer")
 require("prototypes.data.item.entity.crystalizer")
+require("prototypes.data.item.entity.filtration-drum")
 
 require("prototypes.data.item.science-pack.impure-energy-crystal")
 
@@ -20,6 +21,7 @@ require("prototypes.data.entity.evaporator")
 require("prototypes.data.entity.mixing-drum")
 require("prototypes.data.entity.soil-gatherer")
 require('prototypes.data.entity.crystalizer')
+require('prototypes.data.entity.filtration-drum')
 
 require("prototypes.data.fluid.sea-water")
 

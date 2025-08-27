@@ -3,6 +3,7 @@ local hit_effects = require("__base__.prototypes.entity.hit-effects")
 ENTITY {
     type = "assembling-machine",
     name = "aquario-evaporator",
+    icon_size = 16,
     icon = "__aquario-graphics__/icons/nyi-item.png",
     flags = { "placeable-neutral", "placeable-player", "player-creation" },
     minable = {

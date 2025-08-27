@@ -27,3 +27,9 @@ CATEGORY {
     name = "aquario-crystalization",
     order = "c[crystalization]"
 }
+
+CATEGORY {
+    type = "recipe-category",
+    name = "aquario-fluid-filtration",
+    order = "f[fluid]-f[filtration]"
+}

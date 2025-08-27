@@ -2,13 +2,13 @@ local hit_effects = require("__base__.prototypes.entity.hit-effects")
 
 ENTITY {
     type = "assembling-machine",
-    name = "aquario-crystalizer",
+    name = "aquario-filtration-drum",
     icon_size = 16,
     icon = "__aquario-graphics__/icons/nyi-item.png",
     flags = { "placeable-neutral", "placeable-player", "player-creation" },
     minable = {
         mining_time = 0.2,
-        result = "aquario-crystalizer"
+        result = "aquario-filtration-drum"
     },
     max_health = 300,
     corpse = "assembling-machine-1-remnants",
@@ -44,7 +44,7 @@ ENTITY {
             }
         }
     },
-    crafting_categories = { "aquario-crystalization" },
+    crafting_categories = { "aquario-fluid-filtration" },
     crafting_speed = 0.5,
     energy_source = {
         type = "electric",
@@ -61,22 +61,22 @@ ENTITY {
         fade_in_ticks = 4,
         fade_out_ticks = 20
     },
-    -- fluid_boxes = {
-    --     {
-    --         production_type = "input",
-    --         pipe_picture = assembler2pipepictures(),
-    --         pipe_covers = pipecoverspictures(),
-    --         volume = 1000,
-    --         pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1 } } },
-    --         secondary_draw_orders = { north = -1 }
-    --     },
-    --     {
-    --         production_type = "output",
-    --         pipe_picture = assembler2pipepictures(),
-    --         pipe_covers = pipecoverspictures(),
-    --         volume = 1000,
-    --         pipe_connections = { { flow_direction = "output", direction = defines.direction.south, position = { 0, 1 } } },
-    --         secondary_draw_orders = { north = -1 }
-    --     }
-    -- }
+    fluid_boxes = {
+        {
+            production_type = "input",
+            pipe_picture = assembler2pipepictures(),
+            pipe_covers = pipecoverspictures(),
+            volume = 1000,
+            pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1 } } },
+            secondary_draw_orders = { north = -1 }
+        },
+        {
+            production_type = "output",
+            pipe_picture = assembler2pipepictures(),
+            pipe_covers = pipecoverspictures(),
+            volume = 1000,
+            pipe_connections = { { flow_direction = "output", direction = defines.direction.south, position = { 0, 1 } } },
+            secondary_draw_orders = { north = -1 }
+        }
+    }
 }
