@@ -3,7 +3,7 @@ local hit_effects = require("__base__.prototypes.entity.hit-effects")
 ENTITY {
     type = "assembling-machine",
     name = "aquario-mixing-drum",
-    icon = "__base__/graphics/icons/assembling-machine-1.png",
+    icon = "__aquario-graphics__/icons/nyi-item.png",
     flags = { "placeable-neutral", "placeable-player", "player-creation" },
     minable = {
         mining_time = 0.2,
@@ -31,24 +31,13 @@ ENTITY {
             layers =
             {
                 {
-                    filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+                    filename = "__aquario-graphics__/entity/nyi-entity.png",
                     priority = "high",
                     width = 214,
                     height = 226,
-                    frame_count = 32,
-                    line_length = 8,
-                    shift = util.by_pixel(0, 2),
-                    scale = 0.5
-                },
-                {
-                    filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1-shadow.png",
-                    priority = "high",
-                    width = 190,
-                    height = 165,
+                    frame_count = 1,
                     line_length = 1,
-                    repeat_count = 32,
-                    draw_as_shadow = true,
-                    shift = util.by_pixel(8.5, 5),
+                    shift = util.by_pixel(0, 2),
                     scale = 0.5
                 }
             }
