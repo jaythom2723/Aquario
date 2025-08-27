@@ -3,7 +3,7 @@ local meta = {}
 meta.add_subgroup = function(self, sub)
     if type(sub) == "table" then
         for _, g in sub do
-            self:add_subgroup(sub)
+            self:add_subgroup(g)
         end
         return self
     end
@@ -12,7 +12,7 @@ meta.add_subgroup = function(self, sub)
         type = "item-subgroup",
         name = sub.name,
         group = self.name,
-        order = sg.order or nil
+        order = sub.order or nil
     }
     data:extend { g }
     return self

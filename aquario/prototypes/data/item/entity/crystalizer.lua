@@ -1,8 +1,8 @@
 ITEM {
     type = "item",
-    name = "aquario-mixing-drum",
+    name = "aquario-crystalizer",
     icon = "__aquario-graphics__/icons/nyi-item.png",
     icon_size = 32,
     stack_size = 10,
-    place_result = "aquario-mixing-drum"
+    place_result = "aquario-crystalizer"
 }
