@@ -33,3 +33,9 @@ CATEGORY {
     name = "aquario-fluid-filtration",
     order = "f[fluid]-f[filtration]"
 }
+
+CATEGORY {
+    type = "recipe-category",
+    name = "aquario-crushing",
+    order = "c[crushing]"
+}
