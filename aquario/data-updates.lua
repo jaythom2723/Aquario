@@ -8,3 +8,5 @@ require("prototypes.updates.lab")
 
 aquario.disable_vanilla_recipes()
 aquario.disable_vanilla_technologies()
+
+require("prototypes.updates.technology")
