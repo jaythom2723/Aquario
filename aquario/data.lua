@@ -29,6 +29,7 @@ require("prototypes.data.recipe.dirty-sea-water")
 require("prototypes.data.recipe.energy-crystals")
 require("prototypes.data.recipe.evaporation")
 require("prototypes.data.recipe.soil-gathering")
+require("prototypes.data.recipe.filtration")
 
 require("prototypes.data.categories")
 

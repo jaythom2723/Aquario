@@ -9,5 +9,6 @@ RECIPE {
     results = {
         { type = "fluid", name = "aquario-dirty-unmineralized-sea-water", amount = 50 },
         { type = "item",  name = "stone",                                 amount = 5 }
-    }
+    },
+    category = "aquario-fluid-filtration"
 }
