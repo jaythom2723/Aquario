@@ -21,6 +21,11 @@ require("prototypes.data.entity.soil-gatherer")
 
 require("prototypes.data.fluid.sea-water")
 
+require("prototypes.data.recipe.dirty-sea-water")
+require("prototypes.data.recipe.energy-crystals")
+require("prototypes.data.recipe.evaporation")
+require("prototypes.data.recipe.soil-gathering")
+
 require("prototypes.data.categories")
 
 require("mapgen")

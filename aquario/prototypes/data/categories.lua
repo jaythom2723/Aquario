@@ -21,3 +21,9 @@ CATEGORY {
     name = "aquario-soil-gathering",
     order = "s[soil]-a[gathering]"
 }
+
+CATEGORY {
+    type = "recipe-category",
+    name = "aquario-crystalization",
+    order = "c[crystalization]"
+}
