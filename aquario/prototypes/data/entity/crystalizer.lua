@@ -61,22 +61,22 @@ ENTITY {
         fade_in_ticks = 4,
         fade_out_ticks = 20
     },
-    -- fluid_boxes = {
-    --     {
-    --         production_type = "input",
-    --         pipe_picture = assembler2pipepictures(),
-    --         pipe_covers = pipecoverspictures(),
-    --         volume = 1000,
-    --         pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1 } } },
-    --         secondary_draw_orders = { north = -1 }
-    --     },
-    --     {
-    --         production_type = "output",
-    --         pipe_picture = assembler2pipepictures(),
-    --         pipe_covers = pipecoverspictures(),
-    --         volume = 1000,
-    --         pipe_connections = { { flow_direction = "output", direction = defines.direction.south, position = { 0, 1 } } },
-    --         secondary_draw_orders = { north = -1 }
-    --     }
-    -- }
+    fluid_boxes = {
+        {
+            production_type = "input",
+            pipe_picture = assembler2pipepictures(),
+            pipe_covers = pipecoverspictures(),
+            volume = 1000,
+            pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1 } } },
+            secondary_draw_orders = { north = -1 }
+        },
+        {
+            production_type = "output",
+            pipe_picture = assembler2pipepictures(),
+            pipe_covers = pipecoverspictures(),
+            volume = 1000,
+            pipe_connections = { { flow_direction = "output", direction = defines.direction.south, position = { 0, 1 } } },
+            secondary_draw_orders = { north = -1 }
+        }
+    }
 }

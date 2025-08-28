@@ -9,6 +9,8 @@ require("__aquario-lib__.metas.technology")
 require("prototypes.data.item.salt")
 require("prototypes.data.item.soil")
 require('prototypes.data.item.silica')
+require('prototypes.data.item.iron-oxide')
+require('prototypes.data.item.copper-oxide')
 
 require("prototypes.data.item.entity.evaporator")
 require("prototypes.data.item.entity.mixing-drum")
@@ -16,6 +18,7 @@ require("prototypes.data.item.entity.soil-gatherer")
 require("prototypes.data.item.entity.crystalizer")
 require("prototypes.data.item.entity.filtration-drum")
 require('prototypes.data.item.entity.crusher')
+require('prototypes.data.item.slag')
 
 require("prototypes.data.item.science-pack.impure-energy-crystal")
 
@@ -27,13 +30,15 @@ require('prototypes.data.entity.filtration-drum')
 require('prototypes.data.entity.crusher')
 
 require("prototypes.data.fluid.sea-water")
+require("prototypes.data.fluid.water")
 
-require("prototypes.data.recipe.dirty-sea-water")
 require("prototypes.data.recipe.energy-crystals")
 require("prototypes.data.recipe.evaporation")
 require("prototypes.data.recipe.soil-gathering")
 require("prototypes.data.recipe.filtration")
 require("prototypes.data.recipe.silica")
+require("prototypes.data.recipe.mixing")
+require("prototypes.data.recipe.mineral-water")
 
 require("prototypes.data.categories")
 

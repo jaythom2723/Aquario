@@ -10,3 +10,4 @@ aquario.disable_vanilla_recipes()
 aquario.disable_vanilla_technologies()
 
 require("prototypes.updates.technology")
+require("prototypes.updates.plate")

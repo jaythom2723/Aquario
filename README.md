@@ -25,3 +25,5 @@ Changelogs can be found within the global [changelogs.md](https://github.com/jay
 A global [todo list](https://github.com/jaythom2723/Aquario/blob/main/TODO.md) is where any and all features that are *planned* to be implemented will go. As opposed to working with a Trello, this file will keep track of what's in progress, what needs testing, and what is completed.
 
 ## README
+
+# Works Cited
