@@ -7,7 +7,7 @@ ENTITY {
     flags = { "placeable-neutral", "placeable-player", "player-creation" },
     minable = {
         mining_time = 0.2,
-        result = "aquario-mixing-drum"
+        result = "aquario-soil-gatherer"
     },
     max_health = 300,
     corpse = "assembling-machine-1-remnants",
