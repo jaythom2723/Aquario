@@ -12,6 +12,15 @@ aquario.disable_vanilla_technologies = function()
     for i, v in pairs(data.raw.technology) do
         if not string.match(v.name, "aquario-") then
             data.raw.technology[i].enabled = false
+
+            if v.research_trigger then
+                v.research_trigger = nil
+                v.unit = {
+                    count = 25,
+                    ingredients = { { "automation-science-pack", 1 } },
+                    time = 10
+                }
+            end
         end
     end
 end

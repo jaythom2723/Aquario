@@ -11,3 +11,4 @@ aquario.disable_vanilla_technologies()
 
 require("prototypes.updates.technology")
 require("prototypes.updates.plate")
+require("prototypes.updates.furnace")

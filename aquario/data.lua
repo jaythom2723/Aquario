@@ -21,6 +21,7 @@ require('prototypes.data.item.entity.crusher')
 require('prototypes.data.item.slag')
 
 require("prototypes.data.item.science-pack.impure-energy-crystal")
+require("prototypes.data.item.science-pack.basic-energy-crystal")
 
 require("prototypes.data.entity.evaporator")
 require("prototypes.data.entity.mixing-drum")
