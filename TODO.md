@@ -10,7 +10,9 @@
 # To-Do
 **Aquario Main**
 ```
-[ ] > 
+[ ] > Organize the Recipe Window
+[ ] > Come up with and flesh out new technologies
+[ ] > Slag processing, Dirty Silica processing, and Dirty Water processing
 ```
 
 **Aquario Graphics**
