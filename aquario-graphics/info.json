@@ -3,7 +3,7 @@
     "title": "Aquario Graphics",
     "author": "Rify",
     "description": "Graphics for the main mod for Aquario",
-    "dependencies": ["base", "aquario", "? space-age"],
+    "dependencies": ["base", "? space-age"],
     "version": "0.0.0",
     "factorio_version": "2.0"
 }
