@@ -3,8 +3,7 @@ local hit_effects = require("__base__.prototypes.entity.hit-effects")
 ENTITY {
     type = "assembling-machine",
     name = "aquario-crusher",
-    icon_size = 16,
-    icon = "__aquario-graphics__/icons/nyi-item.png",
+    icon = "__aquario-graphics__/icons/entity/crusher.png",
     flags = { "placeable-neutral", "placeable-player", "player-creation" },
     minable = {
         mining_time = 0.2,
@@ -32,14 +31,14 @@ ENTITY {
             layers =
             {
                 {
-                    filename = "__aquario-graphics__/entity/nyi-entity.png",
+                    filename = "__aquario-graphics__/entity/crusher.png",
                     priority = "high",
-                    width = 214,
-                    height = 226,
+                    width = 473,
+                    height = 460,
                     frame_count = 1,
                     line_length = 1,
-                    shift = util.by_pixel(0, 2),
-                    scale = 0.5
+                    -- shift = util.by_pixel(0, 2),
+                    scale = 0.2
                 }
             }
         }

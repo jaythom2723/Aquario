@@ -3,8 +3,7 @@ local hit_effects = require("__base__.prototypes.entity.hit-effects")
 ENTITY {
     type = "assembling-machine",
     name = "aquario-filtration-drum",
-    icon_size = 16,
-    icon = "__aquario-graphics__/icons/nyi-item.png",
+    icon = "__aquario-graphics__/icons/entity/filtration-drum.png",
     flags = { "placeable-neutral", "placeable-player", "player-creation" },
     minable = {
         mining_time = 0.2,
@@ -20,8 +19,8 @@ ENTITY {
             percent = 70
         }
     },
-    collision_box = { { -1.2, -1.2 }, { 1.2, 1.2 } },
-    selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
+    collision_box = { { -2, -2 }, { 2, 2 } },
+    selection_box = { { -2, -2 }, { 2, 2 } },
     damaged_trigger_effect = hit_effects.entity(),
     circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
     circuit_connector = circuit_connector_definitions["assembling-machine"],
@@ -32,14 +31,14 @@ ENTITY {
             layers =
             {
                 {
-                    filename = "__aquario-graphics__/entity/nyi-entity.png",
+                    filename = "__aquario-graphics__/entity/filtration-drum.png",
                     priority = "high",
-                    width = 214,
-                    height = 226,
+                    width = 470,
+                    height = 469,
                     frame_count = 1,
                     line_length = 1,
-                    shift = util.by_pixel(0, 2),
-                    scale = 0.5
+                    shift = util.by_pixel(5, -5),
+                    scale = 0.3
                 }
             }
         }
@@ -67,7 +66,7 @@ ENTITY {
             pipe_picture = assembler2pipepictures(),
             pipe_covers = pipecoverspictures(),
             volume = 1000,
-            pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1 } } },
+            pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1.75 } } },
             secondary_draw_orders = { north = -1 }
         },
         {
@@ -75,7 +74,7 @@ ENTITY {
             pipe_picture = assembler2pipepictures(),
             pipe_covers = pipecoverspictures(),
             volume = 1000,
-            pipe_connections = { { flow_direction = "output", direction = defines.direction.south, position = { 0, 1 } } },
+            pipe_connections = { { flow_direction = "output", direction = defines.direction.south, position = { 0, 1.75 } } },
             secondary_draw_orders = { north = -1 }
         }
     }

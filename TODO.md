@@ -10,10 +10,17 @@
 # To-Do
 **Aquario Main**
 ```
-[ ] > Organize the Recipe Window
-[ ] > Come up with and flesh out new technologies
-[ ] > Slag processing, Dirty Silica processing, and Dirty Water processing
-[ ] > Aluminum and Tin Tier 1 Production Chains
+[X] > Crusher entity + icon
+[X] > Crystalizer entity + icon
+[X] > Filtration Drum entity + icon
+[D] > Mixing Drum entity + icon
+[D] > Evaporator entity + icon
+[D] > Soil Gatherer + icon
+[P] > Organize the Recipe Window
+[P] > Come up with and flesh out new technologies
+[P] > Slag processing, Dirty Silica processing, and Dirty Water processing
+[P] > Aluminum and Tin Tier 1 Production Chains
+[ ] > Vulcanus, Fulgora, and Gleba all Seablock
 ```
 
 **Aquario Graphics**

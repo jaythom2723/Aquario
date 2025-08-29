@@ -3,8 +3,7 @@ local hit_effects = require("__base__.prototypes.entity.hit-effects")
 ENTITY {
     type = "assembling-machine",
     name = "aquario-crystalizer",
-    icon_size = 16,
-    icon = "__aquario-graphics__/icons/nyi-item.png",
+    icon = "__aquario-graphics__/icons/entity/crystalizer.png",
     flags = { "placeable-neutral", "placeable-player", "player-creation" },
     minable = {
         mining_time = 0.2,
@@ -32,14 +31,14 @@ ENTITY {
             layers =
             {
                 {
-                    filename = "__aquario-graphics__/entity/nyi-entity.png",
+                    filename = "__aquario-graphics__/entity/crystalizer.png",
                     priority = "high",
-                    width = 214,
-                    height = 226,
+                    width = 1000,
+                    height = 1024,
                     frame_count = 1,
                     line_length = 1,
                     shift = util.by_pixel(0, 2),
-                    scale = 0.5
+                    scale = 0.1
                 }
             }
         }
