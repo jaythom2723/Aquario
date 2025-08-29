@@ -43,4 +43,10 @@ require("prototypes.data.recipe.mineral-water")
 
 require("prototypes.data.categories")
 
+require('prototypes.data.technology.energy-crystals')
+require('prototypes.data.technology.ore-processing')
+require('prototypes.data.technology.ore-unlocks')
+require('prototypes.data.technology.cleaning')
+require('prototypes.data.technology.burner-phase')
+
 require("mapgen")

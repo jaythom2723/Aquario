@@ -13,6 +13,7 @@
 [ ] > Organize the Recipe Window
 [ ] > Come up with and flesh out new technologies
 [ ] > Slag processing, Dirty Silica processing, and Dirty Water processing
+[ ] > Aluminum and Tin Tier 1 Production Chains
 ```
 
 **Aquario Graphics**

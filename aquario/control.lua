@@ -32,6 +32,8 @@ script.on_event(defines.events.on_player_created, function(event)
             end
         end
     end
+
+    game.players[event.player_index].force.technologies["aquario-impure-energy-crystal"].researched = true
 end)
 
 -- landfill gen

@@ -4,6 +4,7 @@ ENTITY {
     type = "assembling-machine",
     name = "aquario-soil-gatherer",
     icon = "__aquario-graphics__/icons/nyi-item.png",
+    icon_size = 16,
     flags = { "placeable-neutral", "placeable-player", "player-creation" },
     minable = {
         mining_time = 0.2,
