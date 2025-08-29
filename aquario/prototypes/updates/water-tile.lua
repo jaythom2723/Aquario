@@ -1,6 +1,13 @@
-data.raw.tile["water"].fluid = "aquario-sea-water"
-data.raw.tile["deepwater"].fluid = "aquario-sea-water"
-data.raw.tile["water-green"].fluid = "aquario-sea-water"
-data.raw.tile["deepwater-green"].fluid = "aquario-sea-water"
-data.raw.tile["water-shallow"].fluid = "aquario-sea-water"
-data.raw.tile["water-mud"].fluid = "aquario-sea-water"
+local water_tiles = {
+    "water",
+    "deepwater",
+    "water-green",
+    "deepwater-green",
+    "water-shallow",
+    "water-mud"
+}
+
+for _, v in pairs(water_tiles) do
+    data.raw.tile[v].fluid = "aquario-sea-water"
+    data.raw.tile[v].destroys_dropped_items = true -- thanks to @Immow & @Meelock for the idea.
+end
