@@ -62,3 +62,4 @@ Example of a good credit line (it's polite to do that even when the license does
 
 # KNOWN BUGS
 - Game crashes on certain main menu screens
+- Mixing Drum north-facing pipe does not connect fully into the fluidbox

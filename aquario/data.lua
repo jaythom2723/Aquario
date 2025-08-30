@@ -5,6 +5,9 @@ require("__aquario-lib__.metas.group")
 require("__aquario-lib__.metas.item")
 require("__aquario-lib__.metas.recipe")
 require("__aquario-lib__.metas.technology")
+require("__aquario-lib__.metas.icon")
+
+require("icons")
 
 require("prototypes.data.item.salt")
 require("prototypes.data.item.soil")

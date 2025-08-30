@@ -7,7 +7,7 @@ ENTITY {
         {
             icon = "__aquario-graphics__/entity/evaporator.png",
             icon_size = 241,
-            shift = { 12, 0 }
+            shift = { -25, 0 }
         }
     },
     flags = { "placeable-neutral", "placeable-player", "player-creation" },

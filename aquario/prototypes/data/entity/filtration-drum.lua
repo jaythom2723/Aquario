@@ -19,7 +19,7 @@ ENTITY {
             percent = 70
         }
     },
-    collision_box = { { -2, -2 }, { 2, 2 } },
+    collision_box = { { -1.75, -1.75 }, { 1.75, 1.75 } },
     selection_box = { { -2, -2 }, { 2, 2 } },
     damaged_trigger_effect = hit_effects.entity(),
     circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
@@ -38,7 +38,7 @@ ENTITY {
                     frame_count = 1,
                     line_length = 1,
                     shift = util.by_pixel(5, -5),
-                    scale = 0.3
+                    scale = 0.275
                 }
             }
         }
@@ -66,7 +66,13 @@ ENTITY {
             pipe_picture = assembler2pipepictures(),
             pipe_covers = pipecoverspictures(),
             volume = 1000,
-            pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1.75 } } },
+            pipe_connections = {
+                {
+                    flow_direction = "input",
+                    direction = defines.direction.north,
+                    position = { 0.5, -1.5 }
+                }
+            },
             secondary_draw_orders = { north = -1 }
         },
         {
@@ -74,7 +80,13 @@ ENTITY {
             pipe_picture = assembler2pipepictures(),
             pipe_covers = pipecoverspictures(),
             volume = 1000,
-            pipe_connections = { { flow_direction = "output", direction = defines.direction.south, position = { 0, 1.75 } } },
+            pipe_connections = {
+                {
+                    flow_direction = "output",
+                    direction = defines.direction.south,
+                    position = { 0.5, 1.5 }
+                }
+            },
             secondary_draw_orders = { north = -1 }
         }
     }

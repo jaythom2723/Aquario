@@ -12,13 +12,9 @@ script.on_init(function()
             remote.call("freeplay", "set_disable_crashsite", true)
         end
 
-        -- I honestly don't remember what this does...
-        local created_items = remote.call("freeplay", "get_created_items")
-        created_items["iron-plate"] = nil
-        created_items["burner-mining-drill"] = nil
-        created_items["stone-furnace"] = nil
-        created_items["wood"] = nil
-        remote.call("freeplay", "set_created_items", created_items)
+        -- prevent the game from giving players the default items whenever the player is created/respawned
+        remote.call("freeplay", "set_created_items", {})
+        remote.call("freeplay", "set_respawn_items", {})
     end
 end)
 
