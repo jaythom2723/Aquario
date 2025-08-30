@@ -37,7 +37,7 @@ ENTITY {
                     height = 1024,
                     frame_count = 1,
                     line_length = 1,
-                    shift = util.by_pixel(0, 2),
+                    shift = util.by_pixel(2, 0),
                     scale = 0.1
                 }
             }

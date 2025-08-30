@@ -3,8 +3,13 @@ local hit_effects = require("__base__.prototypes.entity.hit-effects")
 ENTITY {
     type = "assembling-machine",
     name = "aquario-evaporator",
-    icon_size = 16,
-    icon = "__aquario-graphics__/icons/nyi-item.png",
+    icons = {
+        {
+            icon = "__aquario-graphics__/entity/evaporator.png",
+            icon_size = 241,
+            shift = { 12, 0 }
+        }
+    },
     flags = { "placeable-neutral", "placeable-player", "player-creation" },
     minable = {
         mining_time = 0.2,
@@ -13,7 +18,7 @@ ENTITY {
     max_health = 300,
     corpse = "assembling-machine-1-remnants",
     dying_explosion = "assembling-machine-1-explosion",
-    icon_draw_specification = { shift = { 0, -0.3 } },
+    -- icon_draw_specification = { shift = { 0, -0.3 } },
     resistances = {
         {
             type = "fire",
@@ -32,14 +37,14 @@ ENTITY {
             layers =
             {
                 {
-                    filename = "__aquario-graphics__/entity/nyi-entity.png",
+                    filename = "__aquario-graphics__/entity/evaporator.png",
                     priority = "high",
-                    width = 214,
-                    height = 226,
+                    width = 255,
+                    height = 241,
                     frame_count = 1,
                     line_length = 1,
-                    shift = util.by_pixel(0, 2),
-                    scale = 0.5
+                    shift = util.by_pixel(12, 0),
+                    scale = 0.45
                 }
             }
         }
@@ -67,7 +72,7 @@ ENTITY {
             pipe_picture = assembler2pipepictures(),
             pipe_covers = pipecoverspictures(),
             volume = 1000,
-            pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1 } } },
+            pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -0.75 } } },
             secondary_draw_orders = { north = -1 }
         },
         {

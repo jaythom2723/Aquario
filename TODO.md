@@ -10,12 +10,14 @@
 # To-Do
 **Aquario Main**
 ```
+[ ] > Recipes for the new entities
+[ ] > Fix the pipe covers to make them fit entity sprites better
 [X] > Crusher entity + icon
 [X] > Crystalizer entity + icon
 [X] > Filtration Drum entity + icon
 [D] > Mixing Drum entity + icon
-[D] > Evaporator entity + icon
-[D] > Soil Gatherer + icon
+[X] > Evaporator entity + icon
+[X] > Soil Gatherer + icon
 [P] > Organize the Recipe Window
 [P] > Come up with and flesh out new technologies
 [P] > Slag processing, Dirty Silica processing, and Dirty Water processing

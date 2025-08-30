@@ -41,7 +41,8 @@ GNU GPLv3/LGPLv3/Apache/Mozilla v2 = You can use it, modify it, but what you use
 Example of a good credit line (it's polite to do that even when the license doesn't force it): The entity (entity name) contain parts of buildings from (link to mod) from author (name) and is under license (license name)
 
 # Works Cited
-- "aquario-graphics/entity/mixing-drum.png" -> GNU LGPLv3, Original Name: "advanced-centrifuge.png", kiratu11, https://mods.factorio.com/mod/advanced-centrifuge
+- "aquario-graphics/entity/mixing-drum.png"
+    - Entity Sprite: GNU LGPLv3, Original Name: "advanced-centrifuge.png", kiratu11, https://mods.factorio.com/mod/advanced-centrifuge
 - "aquario-graphics/entity/crusher.png"
     - Entity Sprite: GNU LGPLv3, Original Name: "Exotic Space Industries - crusher.png", PreLeyZero & eliont, https://mods.factorio.com/mod/exotic-space-industries-graphics-1 & https://mods.factorio.com/mod/exotic-space-industries-graphics-2 & https://mods.factorio.com/mod/exotic-space-industries-graphics-3
     - Icon Sprite: GNU LGPLv3, Original Name: "Exotic Space Industries - crusher.png", PreLeyZero & eliont, https://mods.factorio.com/mod/exotic-space-industries-graphics-1 & https://mods.factorio.com/mod/exotic-space-industries-graphics-2 & https://mods.factorio.com/mod/exotic-space-industries-graphics-3
@@ -51,8 +52,13 @@ Example of a good credit line (it's polite to do that even when the license does
 - "aquario-graphics/entity/filtration-drum.png"
     - Entity Sprite: GNU LGPLv3, Original Name: "grower.png", PreLeyZero & eliont, https://mods.factorio.com/mod/exotic-space-industries-graphics-1 & https://mods.factorio.com/mod/exotic-space-industries-graphics-2 & https://mods.factorio.com/mod/exotic-space-industries-graphics-3
     - Icon Sprite: GNU LGPLv3, Original Name: "grower.png", PreLeyZero & eliont, https://mods.factorio.com/mod/exotic-space-industries-graphics-1 & https://mods.factorio.com/mod/exotic-space-industries-graphics-2 & https://mods.factorio.com/mod/exotic-space-industries-graphics-3
-- "aquario-graphics/entity/wind-turbine.png" -> GNU LGPLv3, Original Name: "Krastorio 2 - wind-turbine.png", Krastor & Linver & Raigard & snouz & BiusArt & GeneralEcchi, https://mods.factorio.com/mod/Krastorio2Assets
-- "aquario-graphics/entity/evaporator.png" -> CC BY-NC-SA, Original Name: "YuokiTani - big_boiler_r18.png", Yuoki Tani, https://mods.factorio.com/mod/Yuoki
+- "aquario-graphics/entity/wind-turbine.png"
+    - Entity Sprite: GNU LGPLv3, Original Name: "Krastorio 2 - wind-turbine.png", Krastor & Linver & Raigard & snouz & BiusArt & GeneralEcchi, https://mods.factorio.com/mod/Krastorio2Assets
+- "aquario-graphics/entity/evaporator.png"
+    - Entity Sprite: CC BY-NC-SA, Original Name: "YuokiTani - big_boiler_r18.png", Yuoki Tani, https://mods.factorio.com/mod/Yuoki
+- "aquario-graphics/entity/soil-gatherer.png"
+    - Entity Sprite: CC BY-NC-SA, Original Name: "Sosciencity - composting-silo.png", tiriscef & Johanna Spieker & _traum & Yanaem & printable_models & azlyirnizam & snippysnappets & umar6419, https://mods.factorio.com/mod/sosciencity
+    - Icon Sprite: CC BY-NC-SA, Original Name: "Sosciencity - composting-silo.png", tiriscef & Johanna Spieker & _traum & Yanaem & printable_models & azlyirnizam & snippysnappets & umar6419, https://mods.factorio.com/mod/sosciencity
 
 # KNOWN BUGS
 - Game crashes on certain main menu screens
