@@ -1,8 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "aquario-dirty-water-mineralization",
-    icon = "__aquario-graphics__/icons/fluid/nyi-fluid.png",
-    icon_size = 16,
+    icons = ICON("aquario-mineral-water").raw,
     category = "aquario-crystalization",
     ingredients = {
         { type = "fluid", name = "aquario-dirty-water", amount = 100 },

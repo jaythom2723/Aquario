@@ -1,7 +1,13 @@
 RECIPE {
     type = "recipe",
     name = "aquario-evaporate-dirty-sea-water",
-    icon = "__base__/graphics/icons/fluid/water.png",
+    icons = {
+        {
+            icon = "__aquario-graphics__/icons/salt.png",
+            icon_size = 1024,
+            tint = { r = 128, g = 70, b = 27 }
+        }
+    },
     ingredients = {
         { type = "fluid", name = "aquario-dirty-sea-water", amount = 100 }
     },

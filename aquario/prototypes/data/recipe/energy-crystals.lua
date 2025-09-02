@@ -1,7 +1,8 @@
 RECIPE {
     type = "recipe",
     name = "aquario-impure-energy-crystal",
-    icon = "__base__/graphics/icons/solid-fuel.png",
+    icon = "__aquario-graphics__/icons/impure-energy-crystal.png",
+    icon_size = 1024,
     ingredients = {
         { type = "item", name = "aquario-dirty-salt", amount = 5 }
     },

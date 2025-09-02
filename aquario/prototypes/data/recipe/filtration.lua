@@ -1,8 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "aquario-dirty-sea-water-filtration",
-    icon = "__aquario-graphics__/icons/fluid/nyi-fluid.png",
-    icon_size = 16,
+    icon = "__base__/graphics/icons/stone.png",
     ingredients = {
         { type = "fluid", name = "aquario-dirty-sea-water", amount = 100 }
     },
@@ -16,8 +15,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "aquario-sea-water-filtration",
-    icon = "__aquario-graphics__/icons/fluid/nyi-fluid.png",
-    icon_size = 16,
+    icons = ICON("aquario-water").raw,
     ingredients = {
         { type = "fluid", name = "aquario-sea-water", amount = 100 },
     },
@@ -31,8 +29,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "aquario-mineral-water-filtration-with-silica",
-    icon = "__aquario-graphics__/icons/fluid/nyi-fluid.png",
-    icon_size = 16,
+    icons = ICON("aquario-mineral-water").raw,
     ingredients = {
         { type = "fluid", name = "aquario-mineral-water", amount = 100 },
         { type = "item",  name = "aquario-silica",        amount = 5 }
@@ -45,3 +42,9 @@ RECIPE {
     },
     category = "aquario-fluid-filtration"
 }
+
+table.insert(table.deepcopy(RECIPE("aquario-mineral-water-filtration-with-silica").icons), 1, {
+    icon = "__aquario-graphics__/icons/silica.png",
+    icon_size = 64,
+    scale = 0.25
+})

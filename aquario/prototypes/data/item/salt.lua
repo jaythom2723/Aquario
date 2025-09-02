@@ -1,15 +1,20 @@
 ITEM {
     type = "item",
     name = "aquario-salt",
-    icon = "__aquario-graphics__/icons/nyi-item.png",
-    icon_size = 16,
+    icon = "__aquario-graphics__/icons/salt.png",
+    icon_size = 1024,
     stack_size = 100
 }
 
 ITEM {
     type = "item",
     name = "aquario-dirty-salt",
-    icon = "__aquario-graphics__/icons/nyi-item.png",
-    icon_size = 16,
+    icons = {
+        {
+            icon = "__aquario-graphics__/icons/salt.png",
+            icon_size = 1024,
+            tint = { r = 128, g = 70, b = 27 }
+        }
+    },
     stack_size = 100
 }

@@ -1,7 +1,8 @@
 RECIPE {
     type = "recipe",
     name = "aquario-soil-gathering-1",
-    icon = "__base__/graphics/icons/stone.png",
+    icon = "__aquario-graphics__/icons/soil.png",
+    icon_size = 1024,
     ingredients = {},
     results = {
         { type = "item", name = "aquario-soil", amount = 10 }

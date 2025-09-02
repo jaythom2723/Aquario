@@ -11,36 +11,42 @@
 **Aquario Main**
 ```
 [ ] > Prevent the mixing drum from being rotated other than east and west
-[ ] > Recipes for the new entities
-[P] > Organize the Recipe Window
-[P] > Come up with and flesh out new technologies
-[P] > Slag processing, Dirty Silica processing, and Dirty Water processing
-[P] > Aluminum and Tin Tier 1 Production Chains
+[X] > Recipes for the new entities
+[ ] > Organize the Recipe Window
+[ ] > Come up with and flesh out new technologies
+[P] > Recipes for Fluid Drum and Crusher Wheel
+[P] > Algae Production
+[P] > Coal Production from Algae
+[ ] > Slag processing, Dirty Silica processing, and Dirty Water processing
+[ ] > Aluminum and Tin Tier 1 Production Chains
 [ ] > Vulcanus, Fulgora, and Gleba all Seablock
+[D] > Localization (English)
 ```
 
 **Aquario Graphics**
 ```
 [ ] > Icon sprites
-    [ ] > Raw Iron Oxide Ore
-    [ ] > Raw Copper Oxide Ore
-    [ ] > Salt
-    [ ] > Dirty Salt
-    [ ] > Silica
-    [ ] > Dirty Silica
-    [ ] > Slag
-    [ ] > Soil
+    [ ] > Crusher Wheel
+    [ ] > Fluid Drum
+    [X] > Raw Iron Oxide Ore
+    [X] > Raw Copper Oxide Ore
+    [X] > Salt
+    [X] > Dirty Salt
+    [X] > Silica
+    [X] > Dirty Silica
+    [X] > Slag
+    [X] > Soil
     [ ] > Basic Energy Crystal
-    [ ] > Impure Energy Crystal
+    [X] > Impure Energy Crystal
     [ ] > Aluminum
     [ ] > Tin
-    [ ] > Dirty Sea Water
-    [ ] > Sea Water
-    [ ] > Dirty unmineralized Sea Water
-    [ ] > Dirty Water
-    [ ] > Water
-    [ ] > Mineral Water
-    [ ] > Waste Water
+    [X] > Dirty Sea Water
+    [X] > Sea Water
+    [X] > Dirty unmineralized Sea Water
+    [X] > Dirty Water
+    [X] > Water
+    [X] > Mineral Water
+    [X] > Waste Water
 [ ] > Technology Sprites
     [ ] > Burner Automation
     [ ] > Silicate Cleaning 1
@@ -49,6 +55,7 @@
     [ ] > Aluminum Unlock
     [ ] > Tin Unlock
     [ ] > Ore Crushing
+    [ ] > Slag Processing
     [ ] > Steel
 [X] > Fix the pipe covers to make them fit entity sprites better
 [X] > Crusher entity + icon

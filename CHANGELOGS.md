@@ -8,6 +8,8 @@ Features:
     - New science packs that replace the vanilla packs known as "energy crystals"
     - Added Aluminum and Tin
     - Beginning of the new technology tree
+    - Coal production from Algae
+    - Algae from Algae Spores, Algae Spores from Sea Water
 Changes:
     - Offshore pump pumps Sea Water instead of regular Water
     - Vanilla ore patches no-longer spawn on the map

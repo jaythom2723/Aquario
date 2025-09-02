@@ -59,6 +59,20 @@ Example of a good credit line (it's polite to do that even when the license does
 - "aquario-graphics/entity/soil-gatherer.png"
     - Entity Sprite: CC BY-NC-SA, Original Name: "Sosciencity - composting-silo.png", tiriscef & Johanna Spieker & _traum & Yanaem & printable_models & azlyirnizam & snippysnappets & umar6419, https://mods.factorio.com/mod/sosciencity
     - Icon Sprite: CC BY-NC-SA, Original Name: "Sosciencity - composting-silo.png", tiriscef & Johanna Spieker & _traum & Yanaem & printable_models & azlyirnizam & snippysnappets & umar6419, https://mods.factorio.com/mod/sosciencity
+- "aquario-graphics/icons/impure-energy-crystal.png"
+    - Icon Sprite: CC BY, Original Name: "material-crystal-fluorite-4.png", malcomriley, https://github.com/malcolmriley/unused-renders/tree/main
+- "aquario-graphics/icons/salt.png"
+    - Icon Sprite: CC BY, Original Name: "pile-dust-salt-8.png", malcomriley, https://github.com/malcolmriley/unused-renders/tree/main
+- "aquario-graphics/icons/soil.png"
+    - Icon Sprite: CC BY, Original Name: "sack-fertilizer-2.png", malcomriley, https://github.com/malcolmriley/unused-renders/tree/main
+- "aquario-graphics/icons/raw-copper-oxide-ore.png"
+    - Icon Sprite: CC BY, Original Name: "pile-dust-crushed-copper-ore-3.png", malcomriley, https://github.com/malcolmriley/unused-renders/tree/main
+- "aquario-graphics/icons/raw-iron-oxide-ore.png"
+    - Icon Sprite: CC BY, Original Name: "pile-dust-crushed-iron-ore-2.png", malcomriley, https://github.com/malcolmriley/unused-renders/tree/main
+- "aquario-graphics/icons/silica.png"
+    - Icon Sprite: MIT / GNU LGPLv3 / CC BY, Original Name: "Moshine - sand-8.png", Hurrizane046 & Krastor & snouz, https://mods.factorio.com/mod/Moshine
+- "aquario-graphics/icons/slag.png"
+    - Icon Sprite: GPLv3, Original Name: "Amator Phasma's Resource Pack - apm_slag_2.png", AmatorPhasma, https://mods.factorio.com/mod/apm_resource_pack
 
 # KNOWN BUGS
 - Game crashes on certain main menu screens

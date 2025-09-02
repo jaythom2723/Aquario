@@ -145,6 +145,10 @@ end
 
 RECIPE = setmetatable(data.raw.recipe, {
     __call = function(self, recipe)
+        if type(recipe) == "string" then
+            return setmetatable(data.raw.recipe[recipe], { __index = meta })
+        end
+
         data:extend { recipe }
         return setmetatable(recipe, { __index = meta })
     end
