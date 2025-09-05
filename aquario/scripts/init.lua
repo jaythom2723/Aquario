@@ -5,6 +5,10 @@ require("functions.populate-starting-items")
 -- determine the starting items needed and initialize other things
 script.on_init(function()
     storage.starting_items = aquario.populate_starting_items(prototypes.item)
+    storage.aquario = storage.aquario or {}
+    storage.aquario.farming = storage.aquario.farming or {}
+    storage.aquario.farming.disabled_buildings = storage.aquario.farming.disabled_buildings or {}
+    storage.aquario.farming.enabled_buildings = storage.aquario.farming.enabled_buildings or {}
 
     if remote.interfaces["freeplay"] then
         -- disable the initial ship wrecks that spawn on a normal new game

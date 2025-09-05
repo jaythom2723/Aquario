@@ -39,3 +39,9 @@ CATEGORY {
     name = "aquario-crushing",
     order = "c[crushing]"
 }
+
+CATEGORY {
+    type = "recipe-category",
+    name = "aquario-algae-farming",
+    order = "a[algae]-f[farming]"
+}
