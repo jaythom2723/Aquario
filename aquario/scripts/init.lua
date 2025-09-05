@@ -9,6 +9,7 @@ script.on_init(function()
     storage.aquario.farming = storage.aquario.farming or {}
     storage.aquario.farming.disabled_buildings = storage.aquario.farming.disabled_buildings or {}
     storage.aquario.farming.enabled_buildings = storage.aquario.farming.enabled_buildings or {}
+    storage.aquario.farming.next_farm_index = 1
 
     if remote.interfaces["freeplay"] then
         -- disable the initial ship wrecks that spawn on a normal new game

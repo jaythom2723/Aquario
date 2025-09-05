@@ -9,6 +9,8 @@ require("__aquario-lib__.metas.icon")
 
 require("icons")
 
+require("prototypes.data.sprites")
+
 require("prototypes.data.item.salt")
 require("prototypes.data.item.soil")
 require('prototypes.data.item.silica')
@@ -50,7 +52,8 @@ require("prototypes.data.recipe.mixing")
 require("prototypes.data.recipe.mineral-water")
 require("prototypes.data.recipe.crusher-wheel")
 require("prototypes.data.recipe.fluid-drum")
-require('prototypes.data.recipe.entity.algae-incubator')
+require("prototypes.data.recipe.algae")
+require("prototypes.data.recipe.coal")
 
 require('prototypes.data.recipe.entity.crusher')
 require('prototypes.data.recipe.entity.crystalizer')
@@ -58,6 +61,7 @@ require('prototypes.data.recipe.entity.evaporator')
 require('prototypes.data.recipe.entity.filtration-drum')
 require('prototypes.data.recipe.entity.mixing-drum')
 require('prototypes.data.recipe.entity.soil-gatherer')
+require('prototypes.data.recipe.entity.algae-incubator')
 
 require("prototypes.data.categories")
 

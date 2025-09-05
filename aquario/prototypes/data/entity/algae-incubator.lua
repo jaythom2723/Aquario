@@ -20,6 +20,7 @@ ENTITY {
             percent = 70
         }
     },
+    module_slots = 10,
     collision_box = { { -1.2, -1.2 }, { 1.2, 1.2 } },
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
     damaged_trigger_effect = hit_effects.entity(),
