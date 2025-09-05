@@ -4,76 +4,61 @@
 [!] > Task is urgent, should be worked on first
 [P] > Task is being designed/planned out
 [D] > Task is being worked on
-[X] > Task has been completed
 ```
 
 # To-Do
-**Aquario Main**
+**Bugs**
+
+**Aquario Main - 0.1.0**
 ```
-[X] > Prevent the mixing drum from being rotated other than east and west
-[X] > Recipes for the new entities
+[ ] > Re-enable recipes
+    [ ] > Yellow Belt
+    [ ] > Yellow Inserter
 [ ] > Organize the Recipe Window
-[ ] > Come up with and flesh out new technologies
-[D] > Algae Production
-[D] > Coal Production from Algae
-[ ] > Pyanodons style farming
-[D] > Coal from Wood
-[X] > Crusher Wheel Recipe
-[X] > Fluid Drum Recipe
-[ ] > Slag processing, Dirty Silica processing, and Dirty Water processing
-[ ] > Aluminum and Tin Tier 1 Production Chains
-[ ] > Vulcanus, Fulgora, and Gleba all Seablock
+[D] > Windmill
+    [ ] > Item
+    [ ] > Entity
+    [ ] > Recipe
 [D] > Localization (English)
 ```
 
-**Aquario Graphics**
+**Aquario Main - 0.2.0**
 ```
-[ ] > Icon sprites
-    [ ] > Crusher Wheel
-    [ ] > Algae
-    [ ] > Algae Culture
-    [ ] > Fluid Drum
-    [X] > Raw Iron Oxide Ore
-    [X] > Raw Copper Oxide Ore
-    [X] > Salt
-    [X] > Dirty Salt
-    [X] > Silica
-    [X] > Dirty Silica
-    [X] > Slag
-    [X] > Soil
+[ ] > Slag processing, Dirty Silica processing, and Dirty Water processing
+[ ] > Aluminum and Tin Tier 1 Production Chains
+[D] > Localization (English)
+```
+
+**Aquario Graphics for Aquario Main 0.1.0**
+```
+[ ] > Animations for all of the entities being utilized by the overhaul
+
+Entity Sprites
+Icon Sprites
+    [D] > Crusher Wheel
+    [D] > Algae
+    [D] > Fluid Drum
+
+```
+
+**Aquario Graphics for Aquario Main 0.2.0**
+```
+Icon Sprites
     [ ] > Basic Energy Crystal
-    [X] > Impure Energy Crystal
     [ ] > Aluminum
     [ ] > Tin
-    [X] > Dirty Sea Water
-    [X] > Sea Water
-    [X] > Dirty unmineralized Sea Water
-    [X] > Dirty Water
-    [X] > Water
-    [X] > Mineral Water
-    [X] > Waste Water
-[ ] > Technology Sprites
+Technology Sprites
     [ ] > Burner Automation
-    [ ] > Algae Cultivation
+    [ ] > Algae Processing
     [ ] > Silicate Cleaning 1
-    [ ] > Impure Energy Crystal
     [ ] > Basic Energy Crystal
     [ ] > Aluminum Unlock
     [ ] > Tin Unlock
     [ ] > Ore Crushing
     [ ] > Slag Processing
     [ ] > Steel
-[X] > Fix the pipe covers to make them fit entity sprites better
-[X] > Crusher entity + icon
-[X] > Crystalizer entity + icon
-[X] > Filtration Drum entity + icon
-[X] > Mixing Drum entity + icon
-[X] > Evaporator entity + icon
-[X] > Soil Gatherer + icon
 ```
 
 **Aquario Lib**
 ```
-[ ] > Make common functions for repeating things
-    [ ] > Fluid constructor ?
 ```

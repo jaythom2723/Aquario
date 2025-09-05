@@ -1,8 +1,8 @@
 RECIPE {
     type = "recipe",
     name = "aquario-algae-incubator",
-    icon = "__aquario-graphics__/icons/nyi-item.png",
-    icon_size = 214,
+    icon = "__aquario-graphics__/entity/algae-incubator.png",
+    icon_size = 464,
     ingredients = {
         { type = "item", name = "aquario-fluid-drum", amount = 1 },
         { type = "item", name = "copper-plate",       amount = 10 },

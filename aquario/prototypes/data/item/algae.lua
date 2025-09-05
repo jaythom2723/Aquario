@@ -1,8 +1,7 @@
 ITEM {
     type = "module",
     name = "aquario-algae",
-    icon = "__aquario-graphics__/icons/nyi-item.png",
-    icon_size = 214,
+    icon = "__aquario-graphics__/icons/algae.png",
     category = "speed",
     tier = 1,
     effect = {
