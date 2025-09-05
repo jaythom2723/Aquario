@@ -1,7 +1,6 @@
 ITEM {
     type = "item",
     name = "aquario-crusher-wheel",
-    icon = "__aquario-graphics__/icons/nyi-item.png",
-    icon_size = 214,
+    icon = "__aquario-graphics__/icons/crusher-wheel.png",
     stack_size = 25
 }

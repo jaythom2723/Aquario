@@ -1,8 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "aquario-fluid-drum",
-    icon = "__aquario-graphics__/icons/nyi-item.png",
-    icon_size = 214,
+    icon = "__aquario-graphics__/icons/fluid-drum.png",
     category = "crafting",
     ingredients = {
         { type = "item", name = "pipe",       amount = 10 },

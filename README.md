@@ -78,6 +78,10 @@ Example of a good credit line (it's polite to do that even when the license does
     - Icon Sprite: GNU LGPLv3, Original Name: "insulated-tank.png", PreLeyZero & eliont, https://mods.factorio.com/mod/exotic-space-industries-graphics-1 & https://mods.factorio.com/mod/exotic-space-industries-graphics-2 & https://mods.factorio.com/mod/exotic-space-industries-graphics-3
 - "aquario-graphics/icons/algae.png"
     - Icon Sprite: GNU LGPLv3, Original Name: "Spaghetorio - algae-1.png", Spaghetti2364, https://mods.factorio.com/mod/Spaghetorio
+- "aquario-graphics/icons/crusher-wheel.png"
+    - Icon Sprite: MIT, Original Name: "Artisanal Reskins - grinding-wheel.png", Kirazy & snouz & Vigil & YuokiTani, https://mods.factorio.com/mod/reskins-bobs
+- "aquario-graphics/icons/fluid-drum.png"
+    - Icon Sprite: MIT, Original Name: "Periodic Madness - fuel - empty-fuel-canister.png", Mr. SmoothieHuman, https://mods.factorio.com/mod/periodic-madness
 
 # KNOWN BUGS
 - Game crashes on certain main menu screens

@@ -1,8 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "aquario-algae-cultivation",
-    icon = "__aquario-graphics__/icons/nyi-item.png",
-    icon_size = 214,
+    icon = "__aquario-graphics__/icons/algae.png",
     ingredients = {
         { type = "fluid", name = "aquario-sea-water", amount = 100 }
     },

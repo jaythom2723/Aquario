@@ -15,6 +15,14 @@
     [ ] > Yellow Belt
     [ ] > Yellow Inserter
 [ ] > Organize the Recipe Window
+[ ] > Organize technologies
+    [ ] > disable technologies unrelated to 0.1.0
+[ ] > tweak fluid colors for the water variations
+    [ ] > Dirty water
+    [ ] > Dirty sea water
+    [ ] > Waste water
+    [ ] > Dirty Unmineralized Sea Water
+    [ ] > Mineral Water
 [D] > Windmill
     [ ] > Item
     [ ] > Entity
@@ -32,13 +40,6 @@
 **Aquario Graphics for Aquario Main 0.1.0**
 ```
 [ ] > Animations for all of the entities being utilized by the overhaul
-
-Entity Sprites
-Icon Sprites
-    [D] > Crusher Wheel
-    [D] > Algae
-    [D] > Fluid Drum
-
 ```
 
 **Aquario Graphics for Aquario Main 0.2.0**
