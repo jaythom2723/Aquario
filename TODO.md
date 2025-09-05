@@ -10,7 +10,7 @@
 # To-Do
 **Aquario Main**
 ```
-[ ] > Prevent the mixing drum from being rotated other than east and west
+[X] > Prevent the mixing drum from being rotated other than east and west
 [X] > Recipes for the new entities
 [ ] > Organize the Recipe Window
 [ ] > Come up with and flesh out new technologies
