@@ -9,7 +9,6 @@ require("prototypes.updates.lab")
 aquario.disable_vanilla_recipes()
 aquario.disable_vanilla_technologies()
 
+require("prototypes.updates.recipes")
 require("prototypes.updates.technology")
 require("prototypes.updates.plate")
-require("prototypes.updates.furnace")
-require('prototypes.updates.pipe')

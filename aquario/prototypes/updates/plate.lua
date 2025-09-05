@@ -27,5 +27,3 @@ data.raw.recipe["copper-plate"].group = "intermediate-products"
 data.raw.recipe["copper-plate"].subgroup = "raw-material"
 
 -- recipe re-enabling
-data.raw.recipe["iron-plate"].enabled = true
-data.raw.recipe["copper-plate"].enabled = true

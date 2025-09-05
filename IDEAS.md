@@ -28,12 +28,15 @@ Sea Water from an Offshore Pump goes into a Mixing Drum, Soil from a Soil Gather
 The Dirty Sea Water is then filtered in a Filtration Drum, where it yields Stone and Dirty Unmineralized Sea Water.
 The Stone is then put into a Crusher, which yields Silica.
 
+## Coal (Tier 0)
+Player finds wood in the water and puts it into a furnace to make coal
+
 ## Coal (Tier 1)
 Sea Water from an Offshore Pump goes into a Mixing Drum, Soil from a Soil Gatherer also goes into the Mixing Drum. This mixing process forms Dirty Sea Water.
 The Dirty Sea Water is then filtered in a Filtration Drum, where it yields Stone and Dirty Unmineralized Sea Water.
-The Dirty Unmineralized Sea Water gets filtered with Silica in a Filtration Drum, to yield Seaweed Culture.
-Seaweed Culture goes into a Seaweed Cultivator to yield Seaweed
-Seaweed is put into a furnace and gets burned into Coal
+The Dirty Unmineralized Sea Water gets filtered with Silica in a Filtration Drum, to yield Algae Culture, Dirty Silica, and Waste Waster.
+Algae Culture goes into an Algae Cultivator to yield Algae
+Algae is put into a furnace and gets burned into Coal
 
 ## Iron Plate (Tier 1)
 Sea Water from an Offshore Pump goes into a Filtration Drum to yield Water and Salt.

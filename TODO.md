@@ -14,9 +14,12 @@
 [X] > Recipes for the new entities
 [ ] > Organize the Recipe Window
 [ ] > Come up with and flesh out new technologies
-[P] > Recipes for Fluid Drum and Crusher Wheel
-[P] > Algae Production
-[P] > Coal Production from Algae
+[D] > Algae Production
+[D] > Coal Production from Algae
+[ ] > Pyanodons style farming
+[D] > Coal from Wood
+[X] > Crusher Wheel Recipe
+[X] > Fluid Drum Recipe
 [ ] > Slag processing, Dirty Silica processing, and Dirty Water processing
 [ ] > Aluminum and Tin Tier 1 Production Chains
 [ ] > Vulcanus, Fulgora, and Gleba all Seablock
@@ -27,6 +30,8 @@
 ```
 [ ] > Icon sprites
     [ ] > Crusher Wheel
+    [ ] > Algae
+    [ ] > Algae Culture
     [ ] > Fluid Drum
     [X] > Raw Iron Oxide Ore
     [X] > Raw Copper Oxide Ore
@@ -49,6 +54,7 @@
     [X] > Waste Water
 [ ] > Technology Sprites
     [ ] > Burner Automation
+    [ ] > Algae Cultivation
     [ ] > Silicate Cleaning 1
     [ ] > Impure Energy Crystal
     [ ] > Basic Energy Crystal
