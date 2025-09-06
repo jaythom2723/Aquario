@@ -11,5 +11,7 @@ TECHNOLOGY {
         ingredients = { { "aquario-impure-energy-crystal", 1 } },
         time = 10
     },
-    prerequisites = { "aquario-aluminum-unlock" }
+    prerequisites = { "aquario-aluminum-unlock" },
+    enabled = false,
+    hidden = true
 }

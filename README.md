@@ -53,7 +53,7 @@ Example of a good credit line (it's polite to do that even when the license does
     - Entity Sprite: GNU LGPLv3, Original Name: "grower.png", PreLeyZero & eliont, https://mods.factorio.com/mod/exotic-space-industries-graphics-1 & https://mods.factorio.com/mod/exotic-space-industries-graphics-2 & https://mods.factorio.com/mod/exotic-space-industries-graphics-3
     - Icon Sprite: GNU LGPLv3, Original Name: "grower.png", PreLeyZero & eliont, https://mods.factorio.com/mod/exotic-space-industries-graphics-1 & https://mods.factorio.com/mod/exotic-space-industries-graphics-2 & https://mods.factorio.com/mod/exotic-space-industries-graphics-3
 - "aquario-graphics/entity/wind-turbine.png"
-    - Entity Sprite: GNU LGPLv3, Original Name: "Krastorio 2 - wind-turbine.png", Krastor & Linver & Raigard & snouz & BiusArt & GeneralEcchi, https://mods.factorio.com/mod/Krastorio2Assets
+    - Entity Sprite: GNU GPLv3, Original Name: "KS Power - hr-wind-turbine-2-anim.png", Klonan & snouz, https://mods.factorio.com/mod/KS_Power
 - "aquario-graphics/entity/evaporator.png"
     - Entity Sprite: CC BY-NC-SA, Original Name: "YuokiTani - big_boiler_r18.png", Yuoki Tani, https://mods.factorio.com/mod/Yuoki
 - "aquario-graphics/entity/soil-gatherer.png"

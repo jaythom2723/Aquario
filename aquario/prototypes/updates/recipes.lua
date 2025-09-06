@@ -6,3 +6,5 @@ data.raw.recipe["iron-plate"].enabled = true
 data.raw.recipe["copper-plate"].enabled = true
 data.raw.recipe["stone-furnace"].enabled = true
 data.raw.recipe["iron-gear-wheel"].enabled = true
+data.raw.recipe["transport-belt"].enabled = true
+data.raw.recipe["inserter"].enabled = true

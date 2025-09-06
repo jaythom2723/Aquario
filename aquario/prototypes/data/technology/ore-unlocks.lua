@@ -12,7 +12,9 @@ TECHNOLOGY {
     },
     prerequisites = {
         "aquario-basic-energy-crystal"
-    }
+    },
+    hidden = true,
+    enabled = false
 }
 
 TECHNOLOGY {
@@ -26,5 +28,7 @@ TECHNOLOGY {
         ingredients = { { "aquario-impure-energy-crystal", 1 } },
         time = 10
     },
-    prerequisites = { "aquario-impure-energy-crystal" }
+    prerequisites = { "aquario-impure-energy-crystal" },
+    hidden = true,
+    enabled = false
 }

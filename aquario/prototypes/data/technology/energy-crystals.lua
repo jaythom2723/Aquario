@@ -25,5 +25,7 @@ TECHNOLOGY {
         ingredients = { { "aquario-impure-energy-crystal", 1 } },
         time = 10
     },
-    essential = true
+    essential = true,
+    hidden = true,
+    enabled = false,
 }

@@ -4,4 +4,4 @@ data.raw.technology["logistics"].unit = {
     time = 15
 }
 data.raw.technology["logistics"].prerequisites = { "aquario-tin-unlock" }
-data.raw.technology["logistics"].enabled = true
+data.raw.technology["logistics"].enabled = false -- TODO: turn back on for 0.2.0

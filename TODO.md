@@ -11,12 +11,15 @@
 
 **Aquario Main - 0.1.0**
 ```
-[ ] > Re-enable recipes
+[X] > Re-enable recipes
+    [X] > Yellow Belt
+    [X] > Yellow Inserter
+[ ] > Tweak recipes
     [ ] > Yellow Belt
     [ ] > Yellow Inserter
 [ ] > Organize the Recipe Window
-[ ] > Organize technologies
-    [ ] > disable technologies unrelated to 0.1.0
+[D] > Organize technologies
+    [X] > disable technologies unrelated to 0.1.0
 [ ] > tweak fluid colors for the water variations
     [ ] > Dirty water
     [ ] > Dirty sea water
@@ -25,7 +28,7 @@
     [ ] > Mineral Water
 [D] > Windmill
     [ ] > Item
-    [ ] > Entity
+    [X] > Entity
     [ ] > Recipe
 [D] > Localization (English)
 ```

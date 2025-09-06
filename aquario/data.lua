@@ -39,6 +39,7 @@ require('prototypes.data.entity.crystalizer')
 require('prototypes.data.entity.filtration-drum')
 require('prototypes.data.entity.crusher')
 require('prototypes.data.entity.algae-incubator')
+require('prototypes.data.entity.windmill')
 
 require("prototypes.data.fluid.sea-water")
 require("prototypes.data.fluid.water")

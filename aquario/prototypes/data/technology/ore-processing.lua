@@ -12,5 +12,7 @@ TECHNOLOGY {
     },
     prerequisites = {
         "aquario-aluminum-unlock"
-    }
+    },
+    hidden = true,
+    enabled = false
 }
