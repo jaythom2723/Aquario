@@ -9,5 +9,6 @@ RECIPE {
     results = {
         { type = "item", name = "aquario-impure-energy-crystal", amount = 1 }
     },
-    category = "aquario-crystalization"
+    category = "aquario-crystalization",
+    subgroup = "science-pack"
 }

@@ -10,5 +10,6 @@ RECIPE {
     },
     results = {
         { type = "item", name = "aquario-soil-gatherer", amount = 1 }
-    }
+    },
+    subgroup = "production-machine"
 }

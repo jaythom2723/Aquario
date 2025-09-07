@@ -8,5 +8,6 @@ RECIPE {
     results = {
         { type = "item", name = "aquario-silica", amount = 4 }
     },
-    category = "aquario-crushing"
+    category = "aquario-crushing",
+    subgroup = "raw-material"
 }

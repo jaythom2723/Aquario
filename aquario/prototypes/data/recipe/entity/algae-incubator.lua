@@ -10,5 +10,6 @@ RECIPE {
     },
     results = {
         { type = "item", name = "aquario-algae-incubator", amount = 1 }
-    }
+    },
+    subgroup = "aquario-farming-algae",
 }

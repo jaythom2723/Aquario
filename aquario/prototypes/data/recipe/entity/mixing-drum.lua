@@ -12,5 +12,6 @@ RECIPE {
     },
     results = {
         { type = "item", name = "aquario-mixing-drum", amount = 1 }
-    }
+    },
+    subgroup = "production-machine"
 }

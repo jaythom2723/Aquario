@@ -7,5 +7,6 @@ RECIPE {
     results = {
         { type = "item", name = "aquario-soil", amount = 10 }
     },
-    category = "aquario-soil-gathering"
+    category = "aquario-soil-gathering",
+    subgroup = "raw-resource"
 }

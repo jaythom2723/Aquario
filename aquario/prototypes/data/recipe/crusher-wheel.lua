@@ -8,5 +8,6 @@ RECIPE {
     },
     results = {
         { type = "item", name = "aquario-crusher-wheel", amount = 1 }
-    }
+    },
+    subgroup = "intermediate-recipe"
 }

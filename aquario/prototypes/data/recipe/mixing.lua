@@ -9,7 +9,8 @@ RECIPE {
     results = {
         { type = "fluid", name = "aquario-dirty-sea-water", amount = 100 }
     },
-    category = "aquario-fluid-item-mixing"
+    category = "aquario-fluid-item-mixing",
+    subgroup = "aquario-main-fluid-mixing"
 }
 
 RECIPE {
@@ -23,5 +24,6 @@ RECIPE {
     results = {
         { type = "fluid", name = "aquario-dirty-water", amount = 100 }
     },
-    category = "aquario-fluid-item-mixing"
+    category = "aquario-fluid-item-mixing",
+    subgroup = "aquario-main-fluid-mixing"
 }

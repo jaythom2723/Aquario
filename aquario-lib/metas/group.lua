@@ -1,8 +1,8 @@
 local meta = {}
 
 meta.add_subgroup = function(self, sub)
-    if type(sub) == "table" then
-        for _, g in sub do
+    if type(sub[1]) == "table" then
+        for _, g in pairs(sub) do
             self:add_subgroup(g)
         end
         return self
@@ -20,10 +20,14 @@ end
 
 GROUP = setmetatable({}, {
     __call = function(self, group)
+        if type(group) == "string" then
+            return setmetatable(data.raw["item-group"][group], { __index = meta })
+        end
+
         ext_group = {
             type = group.type or "item-group",
             name = group.name,
-            icon = group.icon,
+            icon = group.icon or nil,
             order = group.order or nil
         }
 

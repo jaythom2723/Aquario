@@ -9,5 +9,6 @@ RECIPE {
     },
     results = {
         { type = "item", name = "aquario-fluid-drum", amount = 1 }
-    }
+    },
+    subgroup = "intermediate-recipe"
 }

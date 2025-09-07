@@ -12,8 +12,8 @@ FLUID {
     name = "aquario-dirty-sea-water",
     icons = ICON("aquario-dirty-sea-water").raw,
     default_temperature = 10,
-    base_color = { r = 165, g = 42, b = 42 },
-    flow_color = { r = 165, g = 42, b = 42 }
+    base_color = { r = 100, g = 65, b = 23 },
+    flow_color = { r = 100, g = 65, b = 23 }
 }
 
 FLUID {
@@ -22,6 +22,6 @@ FLUID {
     icons = ICON("aquario-dirty-unmineralized-sea-water").raw,
     icon_size = 16,
     default_temperature = 10,
-    base_color = { r = 165, g = 42, b = 42 },
-    flow_color = { r = 165, g = 42, b = 42 }
+    base_color = { r = 100, g = 65, b = 23 },
+    flow_color = { r = 100, g = 65, b = 23 }
 }

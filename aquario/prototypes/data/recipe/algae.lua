@@ -10,5 +10,6 @@ RECIPE {
         { type = "item",  name = "aquario-algae",       amount = 10 }
     },
     energy_required = 0.55,
-    category = "aquario-algae-farming"
+    category = "aquario-algae-farming",
+    subgroup = "aquario-farming-algae"
 }

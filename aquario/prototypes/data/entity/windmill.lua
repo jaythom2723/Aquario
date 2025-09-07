@@ -28,4 +28,8 @@ ENTITY {
         }
     },
     impact_category = "metal",
+    minable = {
+        mining_time = 0.2,
+        result = "aquario-windmill"
+    }
 }

@@ -8,5 +8,6 @@ RECIPE {
     },
     results = {
         { type = "fluid", name = "aquario-mineral-water", amount = 75 }
-    }
+    },
+    subgroup = "aquario-main-mineralization"
 }

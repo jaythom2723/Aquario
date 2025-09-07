@@ -9,7 +9,8 @@ RECIPE {
         { type = "fluid", name = "aquario-dirty-unmineralized-sea-water", amount = 50 },
         { type = "item",  name = "stone",                                 amount = 5 }
     },
-    category = "aquario-fluid-filtration"
+    category = "aquario-fluid-filtration",
+    subgroup = "raw-resource"
 }
 
 RECIPE {
@@ -23,7 +24,8 @@ RECIPE {
         { type = "fluid", name = "water",        amount = 75 },
         { type = "item",  name = "aquario-salt", amount = 10 }
     },
-    category = "aquario-fluid-filtration"
+    category = "aquario-fluid-filtration",
+    subgroup = "aquario-main-filtration"
 }
 
 RECIPE {
@@ -40,7 +42,8 @@ RECIPE {
         { type = "item",  name = "aquario-dirty-silica",         amount = 5 },
         { type = "fluid", name = "aquario-waste-water",          amount = 50 }
     },
-    category = "aquario-fluid-filtration"
+    category = "aquario-fluid-filtration",
+    subgroup = "aquario-main-filtration"
 }
 
 table.insert(table.deepcopy(RECIPE("aquario-mineral-water-filtration-with-silica").icons), 1, {

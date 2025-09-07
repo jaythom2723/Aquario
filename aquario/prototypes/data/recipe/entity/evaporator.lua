@@ -11,5 +11,6 @@ RECIPE {
     },
     results = {
         { type = "item", name = "aquario-evaporator", amount = 1 }
-    }
+    },
+    subgroup = "production-machine"
 }

@@ -28,6 +28,7 @@ require("prototypes.data.item.entity.crystalizer")
 require("prototypes.data.item.entity.filtration-drum")
 require('prototypes.data.item.entity.crusher')
 require('prototypes.data.item.entity.algae-incubator')
+require('prototypes.data.item.entity.windmill')
 
 require("prototypes.data.item.science-pack.impure-energy-crystal")
 require("prototypes.data.item.science-pack.basic-energy-crystal")
@@ -63,8 +64,10 @@ require('prototypes.data.recipe.entity.filtration-drum')
 require('prototypes.data.recipe.entity.mixing-drum')
 require('prototypes.data.recipe.entity.soil-gatherer')
 require('prototypes.data.recipe.entity.algae-incubator')
+require('prototypes.data.recipe.entity.windmill')
 
 require("prototypes.data.categories")
+require("prototypes.data.groups")
 
 require('prototypes.data.technology.energy-crystals')
 require('prototypes.data.technology.ore-processing')

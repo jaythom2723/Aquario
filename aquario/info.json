@@ -4,6 +4,6 @@
     "author": "Rify",
     "version": "0.0.0",
     "factorio_version": "2.0",
-    "description": "Seablock/pYblock inspired Overhaul mod",
+    "description": "Seablock/pYblock inspired Overhaul mod - PREALPHA BUILD, PLAY AT YOUR OWN RISK!!!",
     "dependencies": [ "base >= 2.0", "(?) space-age", "aquario-lib", "aquario-graphics" ]
 }

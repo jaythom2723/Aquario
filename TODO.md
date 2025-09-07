@@ -11,42 +11,56 @@
 
 **Aquario Main - 0.1.0**
 ```
-[X] > Re-enable recipes
-    [X] > Yellow Belt
+[X] > Tweak recipes
     [X] > Yellow Inserter
-[ ] > Tweak recipes
-    [ ] > Yellow Belt
-    [ ] > Yellow Inserter
-[ ] > Organize the Recipe Window
-[D] > Organize technologies
-    [X] > disable technologies unrelated to 0.1.0
-[ ] > tweak fluid colors for the water variations
-    [ ] > Dirty water
-    [ ] > Dirty sea water
-    [ ] > Waste water
-    [ ] > Dirty Unmineralized Sea Water
-    [ ] > Mineral Water
-[D] > Windmill
+    [X] > Underground Pipe
+[X] > Organize the Recipe Window
+[ ] > Fluid Void
     [ ] > Item
-    [X] > Entity
+    [ ] > Entity
     [ ] > Recipe
+[X] > tweak fluid colors for the water variations
+    [X] > Dirty water
+    [X] > Dirty sea water
+    [X] > Waste water
+    [X] > Dirty Unmineralized Sea Water
+    [X] > Mineral Water
+[X] > Windmill
+    [X] > Item
+    [X] > Entity
+    [X] > Recipe
 [D] > Localization (English)
 ```
 
 **Aquario Main - 0.2.0**
 ```
-[ ] > Slag processing, Dirty Silica processing, and Dirty Water processing
-[ ] > Aluminum and Tin Tier 1 Production Chains
-[D] > Localization (English)
+[ ] > Tweaks
+    [ ] > Windmill
+        [ ] > Move the sprite in front of the player using render layers
+        [ ] > Use stateless visualization to animate the windmill
+[ ] > Byproduct procressing
+    [ ] > Slag processing
+    [ ] > Dirty silica cleaning
+    [ ] > Dirty Water cleaning
+    [ ] > Dirty Sea Water cleaning
+    [ ] > Dirty Unmineralized Water cleaning
+    [ ] > Waste Water cleaning
+[ ] > Production chains
+    [ ] > Aluminum
+    [ ] > Tin
+[ ] > Localization (English)
 ```
 
 **Aquario Graphics for Aquario Main 0.1.0**
 ```
-[ ] > Animations for all of the entities being utilized by the overhaul
+[ ] > Fluid Void
+    [ ] > Icon
+    [ ] > Entity
 ```
 
 **Aquario Graphics for Aquario Main 0.2.0**
 ```
+[ ] > Animations for all of the entities being utilized by the overhaul
 Icon Sprites
     [ ] > Basic Energy Crystal
     [ ] > Aluminum

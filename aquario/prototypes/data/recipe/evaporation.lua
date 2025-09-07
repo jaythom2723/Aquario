@@ -14,5 +14,6 @@ RECIPE {
     results = {
         { type = "item", name = "aquario-dirty-salt", amount = 10 }
     },
-    category = "aquario-fluid-evaporation"
+    category = "aquario-fluid-evaporation",
+    subgroup = "aquario-main-evaporation"
 }

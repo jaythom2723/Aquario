@@ -8,5 +8,6 @@ RECIPE {
     },
     results = {
         { type = "item", name = "coal", amount = 1 }
-    }
+    },
+    subgroup = "raw-resource"
 }
