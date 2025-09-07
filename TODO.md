@@ -56,6 +56,8 @@
 [ ] > Fluid Void
     [ ] > Icon
     [ ] > Entity
+[ ] > Aquario Main Group Icon
+[ ] > Aquario Farming Group Icon
 ```
 
 **Aquario Graphics for Aquario Main 0.2.0**
